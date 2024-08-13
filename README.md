@@ -1,4 +1,4 @@
-Side-Channel Analysis Project: implementing and evalauting side-channel security of Java cryptographic implementations running on JavaCard
+## Side-Channel Analysis Project: implementing and evalauting side-channel security of Java cryptographic implementations running on JavaCard ##
 
 Physical security threats appear at the chip level, where an attacker can measure or physically influence a cryptographic operation performed by the chip's circuit.
 The side-channel analysis exploits additional sources of information (called physical observations), including timing, power consumption, or electromagnetic emissions (EM), among others.
