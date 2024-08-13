@@ -23,7 +23,7 @@ class Ascon:
         S[2] ^= 0XFFFFFFFFFFFFFFFF
 
     @staticmethod
-    def compute_difusion_layer(S):
+    def compute_diffusion_layer(S):
         S[0] ^= Ascon.rotr(S[0], 19) ^ Ascon.rotr(S[0], 28)
         S[1] ^= Ascon.rotr(S[1], 61) ^ Ascon.rotr(S[1], 39)
         S[2] ^= Ascon.rotr(S[2], 1) ^ Ascon.rotr(S[2], 6)

@@ -22,7 +22,7 @@ class AsconHelper:
         self.nonces.append([nonce_x3, nonce_x4])
         Ascon.add_round_key(0, s)
         Ascon.compute_substitution(s)
-        Ascon.compute_difusion_layer(s)
+        Ascon.compute_diffusion_layer(s)
         return s
 
     def create_simulated_traces(self):
